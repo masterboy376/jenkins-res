@@ -125,7 +125,7 @@
 
 ## **Jenkins pipelines**
 
-1. "Pipeline with groovy syntax": a simple Jenkinsfile usually looks like:
+1. **Pipeline with groovy syntax**: a simple Jenkinsfile groovy syntax:
     ```
     pipeline {
         agent { 
