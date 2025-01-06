@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                cdmod +x dummy.sh
+                chmod +x dummy.sh
                 '''
             }
         }
