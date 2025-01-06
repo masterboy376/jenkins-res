@@ -28,8 +28,7 @@
         jenkins_home:
             driver: local
     ```
-    OR
-    you can create a jenkins server with an agent
+    OR you can create a jenkins server with an agent (along with some extra attributes)
     ```yaml
    version: '3.7'
     
