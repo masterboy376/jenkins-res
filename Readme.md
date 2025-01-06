@@ -1,4 +1,4 @@
-**Jenkins Installation**
+## **Jenkins Installation**
 
 1. **Install Docker and Docker Compose**: Make sure you have Docker and Docker Compose installed on your machine. You can download Docker from [Docker's official website](https://www.docker.com/products/docker-desktop).
 
@@ -46,3 +46,7 @@
 6. **Complete Setup**: Enter the password, install the recommended plugins, and set up your admin user.
 
 7. **Start Using Jenkins**: You can now start creating jobs and configuring your CI/CD pipelines.
+
+## **Jenkins pipelines**
+
+1. 
