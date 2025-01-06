@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    container_name: jenkins
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+    environment:
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
+    networks:
+      - jenkins_network
+
+networks:
+  jenkins_network:
+    driver: bridge
+
+volumes:
+  jenkins_home:
+    driver: local
