@@ -150,6 +150,7 @@
                     echo "Testing.."
                     sh '''
                     bash dummy.sh
+                    java src/Hello.java
                     '''
                 }
             }
